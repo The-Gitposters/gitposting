@@ -4,3 +4,12 @@
  \___//_/ 
 
           
+Ideenliste:
+    /rant
+        Pickt sich einen zufälligen Rant aus rant.txt und postet diesen
+    /offend
+        Beleidigungsgenerator
+    /pep
+        Pep Talk-Generator
+    /inspire
+        Inspirobot-Shitposting
