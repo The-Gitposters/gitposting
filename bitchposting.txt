@@ -5,7 +5,7 @@
 
           
 Ideenliste:
-   Called Funktionen   
+    Called Funktionen   
     /rant
         Pickt sich einen zufälligen Rant aus rant.txt und postet diesen
     /offend
@@ -15,6 +15,6 @@ Ideenliste:
     /inspire
         Inspirobot-Shitposting
 
-   Automatische Reaktionen
-      Caps-Reaktion (Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten)
-      MAGGSIME-inator
+    Automatische Reaktionen
+        Caps-Reaktion (Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten)
+        MAGGSIME-inator
