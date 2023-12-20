@@ -3,7 +3,7 @@
 ## Ideenliste
 
 ### Aufgerufene Funktionen
-| Name | Beschreibung | Anmerkungen
+| Name | Beschreibung | Anmerkungen |
 |---|---|---|
 | `/doggo` | Postet ein süßes Hundebild. | |
 | `/help` | Manpage | vielleicht lustigen Namen verwenden |

@@ -36,7 +36,7 @@ prefix = [
     "Mist"
 ]
 
-# nouns suffixes ()"noun":"gender" for gendering adjectives)
+# nouns suffixes ("noun":"gender" for gendering adjectives)
 suffix = {
     "lappen": "m",
     "ratte":"f",
