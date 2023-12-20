@@ -50,7 +50,11 @@ suffix = {
     "birne":"f",
     "brett":"n",
     "moped":"n",
-    "tonne":"f"
+    "tonne":"f",
+    "schatulle":"f",
+    "fritte":"f",
+    "wurst":"f",
+    "schlampe":"f"
 }
 
 # returns a randomly generated insult like <adjective> <prefi><suffix>
