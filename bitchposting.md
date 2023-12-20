@@ -5,10 +5,12 @@
 ### Aufgerufene Funktionen
 | Name | Beschreibung | Anmerkungen
 |---|---|---|
-| `/rant` | Pickt sich einen zufälligen Rant aus rant.txt und postet diesen | |
-| `/insult` | Beleidigungsgenerator |  |
-| `/pep` | Pep Talk-Generator | |
-| `/inspire` | Inspirobot-Shitposting | |
+| `/doggo` | Postet ein süßes Hundebild. | |
+| `/inspire` | Inspirobot-Shitposting. | |
+| `/insult` | Beleidigungsgenerator. | |
+| `/pep` | Pep Talk-Generator. | |
+| `/randrant` | Zerstückelt die verfügbaren Rants satzweise und würfelt einen komplett neuen zusammen. | |
+| `/rant` | Pickt sich einen zufälligen Rant aus rant.txt und postet diesen. | |
 
 ### Automatische Reaktionen
 | Name | Beschreibung |
