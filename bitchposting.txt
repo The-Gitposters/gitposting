@@ -8,12 +8,15 @@ Ideenliste:
     Called Funktionen   
     /rant
         Pickt sich einen zufälligen Rant aus rant.txt und postet diesen
+        mit einer Option wie -r (random) oder -bs (bullshit) wird der gepostete Rand aus den Sätzen bisheriger Rants zusammengewürfelt für Sinnlos-Rants
     /offend
         Beleidigungsgenerator
     /pep
         Pep Talk-Generator
     /inspire
         Inspirobot-Shitposting
+    /tunesuggest
+        Schlägt Musik (inklusive YT- oder Spotify-URL) vor, je nach angegebenem Genre
 
     Automatische Reaktionen
         Caps-Reaktion (Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten)
