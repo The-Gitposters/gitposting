@@ -18,7 +18,7 @@ def send_welcome(message):
 @bot.message_handler(commands=['offend'])
 def send_offense(message):
     import modules.gp_offend as offend
-    bot.send_message("Du " + message.chat.id, offend.be_mean() + "!")
+    bot.send_message(message.chat.id, "Du " + offend.be_mean() + "!")
 
 # start bot listening
 bot.infinity_polling()
