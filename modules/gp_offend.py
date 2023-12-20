@@ -60,6 +60,6 @@ def be_mean():
     index_suf = random.randrange(len(suffix))
     
     # concatenate parts with gendered adjective
-    offense = "Du " + adj[index_adj] + genders[suffix[list(suffix)[index_suf]]] + " " + prefix[index_pre] + list(suffix)[index_suf] + "!"
+    offense = adj[index_adj] + genders[suffix[list(suffix)[index_suf]]] + " " + prefix[index_pre] + list(suffix)[index_suf]
 
     return offense
