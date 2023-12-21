@@ -54,7 +54,8 @@ suffix = {
     "schatulle":"f",
     "fritte":"f",
     "wurst":"f",
-    "schlampe":"f"
+    "schlampe":"f",
+    "":"f"
 }
 
 # returns a randomly generated insult like <adjective> <prefi><suffix>

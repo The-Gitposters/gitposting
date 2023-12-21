@@ -20,5 +20,10 @@ def send_insult(message):
     import modules.gp_insult as insult
     bot.send_message(message.chat.id, "Du " + insult.be_mean() + "!")
 
+# test function for stickers
+@bot.message_handler(commands=['t_sticker'])
+def gp_send_sticker(message):
+    bot.send_sticker(message.chat.id, sticker='CAACAgIAAxkBAAEoW6plgto1t_V5gcGgCZtQX1BgkxH7HQACKDkAAqsKSEpQRYmZhRKHxDME')
+
 # start bot listening
 bot.infinity_polling()
