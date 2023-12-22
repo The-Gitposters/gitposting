@@ -1,7 +1,6 @@
 """
 
 """
-
 # get BOT_TOKEN as environment variable
 import os
 # telegram bot library
@@ -11,6 +10,7 @@ import time
 
 
 import modules.gp_capspam as gp_capspam
+import modules.gp_help as gp_help
 import modules.gp_insult as gp_insult
 
 # create bot with imported token
@@ -34,7 +34,14 @@ def gp_send_sticker(message):
     bot.send_sticker(message.chat.id, sticker='CAACAgIAAxkBAAEoW6plgto1t_V5gcGgCZtQX1BgkxH7HQACKDkAAqsKSEpQRYmZhRKHxDME')
 
 
-# capspam call
+# help call
+@bot.message_handler(commands=['help'])
+def call_gp_help(message):
+    print("help command was issued")
+    help_result = gp_help.babysit_these_morons(message)
+    bot.send_message(message.chat.id, help_result)
+
+# capspam call (has to be changed to handle general non-command messages)
 @bot.message_handler()
 def call_gp_capspam(*messages):
     for message in messages:
@@ -44,6 +51,7 @@ def call_gp_capspam(*messages):
             for character in capspam_result:
                 bot.send_message(message.chat.id, character)
                 time.sleep(1)
+
 
 
 # start bot listening
