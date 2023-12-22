@@ -1,8 +1,9 @@
 # Gitposter Telegram Bot
-       
+
 ## Ideenliste
 
 ### Aufgerufene Funktionen
+
 | Name | Beschreibung | Anmerkungen |
 |---|---|---|
 | `/conf` | Konfiguriert bestimme Optionen (evtl. Benutzerspezifisch) | |
@@ -17,6 +18,7 @@
 | `/tunesuggest` | Schlägt Musik (inklusive YT- oder Spotify-URL) vor, je nach angegebenem Genre | |
 
 ### Automatische Reaktionen
+
 | Name | Beschreibung |
 |---|---|
 | Spambot | Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten. Maggsime wird beim ersten ausprobieren mit einem "du nicht" gedisst |
@@ -24,5 +26,6 @@
 
 ### Weitere Ideen
 
-#### Mobbing   
+#### Mobbing
+
 Bestimmte Nutzer werden durch gezieltes, hämisches Ausschließen bei Einführung neuer Features gemobbt.
