@@ -6,6 +6,8 @@
 import os
 # telegram bot library
 import telebot
+# time for delays etc
+import time
 
 
 import modules.gp_capspam as gp_capspam
@@ -40,8 +42,8 @@ def call_gp_capspam(*messages):
         capspam_result = gp_capspam.get_capspam_result(message)
         if(capspam_result != ""):
             for character in capspam_result:
-                character = character
                 bot.send_message(message.chat.id, character)
+                time.sleep(1000)
 
 
 # start bot listening
