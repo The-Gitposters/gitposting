@@ -43,7 +43,7 @@ def call_gp_capspam(*messages):
         if(capspam_result != ""):
             for character in capspam_result:
                 bot.send_message(message.chat.id, character)
-                time.sleep(1000)
+                time.sleep(1)
 
 
 # start bot listening
