@@ -5,6 +5,7 @@
 ### Aufgerufene Funktionen
 | Name | Beschreibung | Anmerkungen |
 |---|---|---|
+| `/conf` | Konfiguriert bestimme Optionen (evtl. Benutzerspezifisch) | |
 | `/doggo` | Postet ein süßes Hundebild. | |
 | `/help` | Manpage | vielleicht lustigen Namen verwenden |
 | `/inspire` | Inspirobot-Shitposting. | |
@@ -18,5 +19,10 @@
 ### Automatische Reaktionen
 | Name | Beschreibung |
 |---|---|
-| Spambot | Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten |
+| Spambot | Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten. Maggsime wird beim ersten ausprobieren mit einem "du nicht" gedisst |
 | MAGGSIME-inator | sobald jemand Maximes Namen richtig schreibt, antwortet der Bot mit "es heißt MAGGSIME!!!" |
+
+### Weitere Ideen
+
+#### Mobbing   
+Bestimmte Nutzer werden durch gezieltes, hämisches Ausschließen bei Einführung neuer Features gemobbt.
