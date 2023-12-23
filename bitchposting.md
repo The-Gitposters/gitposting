@@ -6,10 +6,12 @@
 | Name | Beschreibung | Anmerkungen |
 |---|---|---|
 | `/doggo` | Postet ein süßes Hundebild. | |
+| `/excuse` | Postet oder generiert eine zufällige Ausrede. | | 
 | `/help` | Manpage | vielleicht lustigen Namen verwenden |
 | `/inspire` | Inspirobot-Shitposting. | |
 | `/insult` | Beleidigungsgenerator. | |
 | `/pep` | Pep Talk-Generator. | |
+| `/quote` | Wirft ein zufälliges Zitat mit zufälligem Autor zusammen. | |
 | `/randrant` | Zerstückelt die verfügbaren Rants satzweise und würfelt einen komplett neuen zusammen. | |
 | `/rant` | Pickt sich einen zufälligen Rant aus rant.txt und postet diesen. | |
 | `/tunesuggest` | Schlägt Musik (inklusive YT- oder Spotify-URL) vor, je nach angegebenem Genre | |
