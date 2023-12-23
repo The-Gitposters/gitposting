@@ -1,0 +1,39 @@
+Gitposter Help
+
+&&%&/conf
+[planned]
+Konfiguriert bestimme Optionen (evtl. benutzerspezifisch)	
+&&%&/doggo
+[planned]
+Postet ein süßes Hundebild.
+&&%&/help
+Syntax: /help [optional]<befehlsname1> [optional]<befehlsname2>
+Zeigt Hilfe an.
+
+Ohne Argumente werden alle verfügbaren Befehle angezeigt.
+Mit --verbose werden alle Befehle darüber hinaus noch erklärt.
+
+Um über einen bestimmten Befehl Informationen zu erhalten, ist dieser Befehlsname hinter dem Aufruf von /help zu nennen
+
+Beispiel: /help doggo
+
+&&%&/inspire
+[planned]
+Inspirobot-Shitposting.
+&&%&/insult
+Beleidigungsgenerator.
+&&%&/pep
+[planned]
+Pep Talk-Generator.
+&&%&/randrant
+[planned]
+Zerstückelt die verfügbaren Rants satzweise und würfelt einen komplett neuen zusammen.	
+&&%&/rant
+[planned]
+Pickt sich einen zufälligen Rant aus rant.txt und postet diesen.	
+&&%&/rantassist
+[planned]
+Unterstützt beim schreiben eines Rants durch Vorschläge für Beleidungen und abwertende adjektive etc.	
+&&%&/tunesuggest
+[planned]
+Schlägt Musik (inklusive YT- oder Spotify-URL) vor, je nach angegebenem Genre	
