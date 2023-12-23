@@ -33,7 +33,8 @@ prefix = [
     "Kack",
     "Wichs",
     "Scheiß",
-    "Mist"
+    "Mist",
+    "Lack"
 ]
 
 # nouns suffixes ("noun":"gender" for gendering adjectives)
@@ -55,6 +56,9 @@ suffix = {
     "fritte":"f",
     "wurst":"f",
     "schlampe":"f",
+    "spast":"m",
+    "spaten":"m",
+    "pfosten":"m",
     "":"f"
 }
 
