@@ -33,7 +33,9 @@ prefix = [
     "Kack",
     "Wichs",
     "Scheiß",
-    "Mist"
+    "Mist",
+    "Drecks",
+    "Lack",
 ]
 
 # nouns suffixes ("noun":"gender" for gendering adjectives)
@@ -55,7 +57,11 @@ suffix = {
     "fritte":"f",
     "wurst":"f",
     "schlampe":"f",
-    "":"f"
+    "praline":"f",
+    "nuss":"f",
+    "pfosten":"m",
+    "spaten":"m",
+    "fresse":"f"
 }
 
 # returns a randomly generated insult like <adjective> <prefi><suffix>
