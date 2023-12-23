@@ -16,7 +16,7 @@ import modules.gp_insult as gp_insult
 # create bot with imported token
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
-
+print(bot.get_me())
 
 # [LEGACY] send welcome message 
 @bot.message_handler(commands=['start', 'hello'])
@@ -43,16 +43,14 @@ def call_gp_help(message):
 
 # capspam call (has to be changed to handle general non-command messages)
 @bot.message_handler()
-def call_gp_capspam(*messages):
-    for message in messages:
-        print(message.text)
-        capspam_result = gp_capspam.get_capspam_result(message)
-        if(capspam_result != ""):
-            for character in capspam_result:
-                bot.send_message(message.chat.id, character)
-                time.sleep(1)
-
-
+def handle_standard_message(message):
+    print("Message received!")
+    # send capspam if necessary
+    capspam_result = gp_capspam.get_capspam_result(message)
+    if(capspam_result != ""):
+        for character in capspam_result:
+            bot.send_message(message.chat.id, character)
+            time.sleep(1)
 
 # start bot listening
 bot.infinity_polling()
