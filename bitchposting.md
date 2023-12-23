@@ -25,9 +25,12 @@
 | Name | Beschreibung |
 |---|---|
 | MAGGSIME-inator | sobald jemand Maximes Namen richtig schreibt, antwortet der Bot mit "es heißt MAGGSIME!!!" |
-| Spambot | Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten. Maggsime wird beim ersten ausprobieren mit einem "du nicht" gedisst
+| Patrick-Response | Antwortet auf eine mit "Ist das ..." beginnende Nachricht mit "Nein, hier ist Patrick!!" |
+| Spambot | Beispiel: auf eine Nachricht "CLIGGE" mit 6 einzelnen Nachrichten "C","L","I","G","G","E" antworten. Maggsime wird beim ersten ausprobieren mit einem "du nicht" gedisst.
 
 ### Weitere Ideen
+
+Saisonale Features: Bestimmte Features werden in zeitlichen Abständen gecyclet.
 
 #### Mobbing
 
