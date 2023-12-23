@@ -3,6 +3,8 @@ import os
 # telegram bot library
 import telebot
 
+import modules.gp_pep as gp_pep
+
 # create bot with imported token
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -19,6 +21,11 @@ def send_welcome(message):
 def send_insult(message):
     import modules.gp_insult as insult
     bot.send_message(message.chat.id, "Du " + insult.be_mean() + "!")
+
+# Pep talk module
+@bot.message_handler(commands=['pep'])
+def send_peptalk(message):
+    bot.send_message(message.chat.id, gp_pep.get_peptalk())
 
 # start bot listening
 bot.infinity_polling()
