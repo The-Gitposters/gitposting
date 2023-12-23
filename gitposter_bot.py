@@ -13,6 +13,8 @@ import modules.gp_capspam as gp_capspam
 import modules.gp_help as gp_help
 import modules.gp_insult as gp_insult
 
+import modules.gp_pep as gp_pep
+
 # create bot with imported token
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -51,6 +53,11 @@ def handle_standard_message(message):
         for character in capspam_result:
             bot.send_message(message.chat.id, character)
             time.sleep(1)
+
+# Pep talk module
+@bot.message_handler(commands=['pep'])
+def send_peptalk(message):
+    bot.send_message(message.chat.id, gp_pep.get_peptalk())
 
 # start bot listening
 bot.infinity_polling()
