@@ -1,5 +1,5 @@
 """
-THIS IS THE GITPOSTER BOT
+THIS IS THE GITPOSTER BOT, the bot that goes gitposting all the time.
 
 Start this bot on a machine with an internet connection.
 
