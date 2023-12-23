@@ -36,6 +36,7 @@ prefix = [
     "Mist",
     "Drecks",
     "Lack",
+    "Flach"
 ]
 
 # nouns suffixes ("noun":"gender" for gendering adjectives)
