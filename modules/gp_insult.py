@@ -17,7 +17,8 @@ adj = [
     "verkackte",
     "gammelige",
     "verfickte",
-    "hirnverrottete"
+    "hirnverrottete",
+    "inkompetente"
 ]
 
 # gendering dictionary
@@ -36,7 +37,8 @@ prefix = [
     "Mist",
     "Drecks",
     "Lack",
-    "Flach"
+    "Flach",
+    "Napp"
 ]
 
 # nouns suffixes ("noun":"gender" for gendering adjectives)
@@ -62,7 +64,8 @@ suffix = {
     "nuss":"f",
     "pfosten":"m",
     "spaten":"m",
-    "fresse":"f"
+    "fresse":"f",
+    "sülze":"f"
 }
 
 # returns a randomly generated insult like <adjective> <prefi><suffix>
