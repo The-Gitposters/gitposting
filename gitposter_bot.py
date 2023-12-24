@@ -36,16 +36,17 @@ import modules.gp_pep as gp_pep
 # BOT_TOKEN is imported from the system environment variables
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
-print(bot.get_me())
 
 # [LEGACY] send welcome message 
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
+    """"""
     bot.reply_to(message, "Na du " + gp_insult.be_mean() + "? Heute schon kassiert?")
 
 # help call
 @bot.message_handler(commands=['help'])
 def call_gp_help(message):
+    """"""
     print("help command was issued")
     help_result = gp_help.babysit_these_morons(message)
     bot.send_message(message.chat.id, help_result)
@@ -53,21 +54,24 @@ def call_gp_help(message):
 # insult module
 @bot.message_handler(commands=['insult'])
 def send_insult(message):
+    """"""
     bot.send_message(message.chat.id, "Du " + gp_insult.be_mean() + "!")
 
 # Pep talk module
 @bot.message_handler(commands=['pep'])
 def send_peptalk(message):
+    """"""
     bot.send_message(message.chat.id, gp_pep.get_peptalk())
 
 # test function for stickers
-@bot.message_handler(commands=['t_sticker'])
-def gp_send_sticker(message):
-    bot.send_sticker(message.chat.id, sticker='CAACAgIAAxkBAAEoW6plgto1t_V5gcGgCZtQX1BgkxH7HQACKDkAAqsKSEpQRYmZhRKHxDME')
+# @bot.message_handler(commands=['t_sticker'])
+# def gp_send_sticker(message):
+#     bot.send_sticker(message.chat.id, sticker='CAACAgIAAxkBAAEoW6plgto1t_V5gcGgCZtQX1BgkxH7HQACKDkAAqsKSEpQRYmZhRKHxDME')
 
 # capspam call (has to be changed to handle general non-command messages)
 @bot.message_handler()
 def handle_standard_message(message):
+    """"""
     print("Message received!")
     # send capspam if necessary
     capspam_result = gp_capspam.get_capspam_result(message)
