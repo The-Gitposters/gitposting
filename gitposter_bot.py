@@ -17,7 +17,6 @@ import modules.gp_insult as gp_insult
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
 print(bot.get_me())
-
 # [LEGACY] send welcome message 
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
