@@ -6,6 +6,7 @@
 
 | Name | Beschreibung | Anmerkungen |
 |---|---|---|
+| `/ascii` | Sendet ASCII-Art Nachrichten je nach Schlüsselwort | |
 | `/conf` | Konfiguriert bestimme Optionen (evtl. Benutzerspezifisch) | |
 | `/doggo` | Postet ein süßes Hundebild. | |
 | `/excuse` | Postet oder generiert eine zufällige Ausrede. | | 
