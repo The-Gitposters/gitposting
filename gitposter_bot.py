@@ -34,6 +34,7 @@ import modules.gp_pep as gp_pep
 
 # create bot with imported token
 # BOT_TOKEN is imported from the system environment variables
+# TODO: change bot token variable name to GP_BOT_TOKEN
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
 print(bot.get_me())
