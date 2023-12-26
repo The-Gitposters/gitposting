@@ -55,7 +55,7 @@ LIST_PEP_SUBJECT = [
 LIST_PEP_ACTION = [
     "has serious game",
     "rains magic",
-    "deserfves the Nobel Prize",
+    "deserves the Nobel Prize",
     "raises the roof",
     "breeds miracles",
     "is paying off big time",
@@ -70,7 +70,7 @@ LIST_PEP_ACTION = [
     "makes birds sing",
     "should be taught in school",
     "makes my world go 'round",
-    "is 100%% legit"
+    r"is 100% legit"
 ]
 
 LIST_PEP_CLOSING = [
