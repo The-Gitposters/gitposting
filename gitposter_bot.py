@@ -30,6 +30,7 @@ import modules.gp_capspam as gp_capspam
 import modules.gp_help as gp_help
 import modules.gp_insult as gp_insult
 import modules.gp_pep as gp_pep
+import modules.gp_rant as gp_rant
 
 
 # create bot with imported token
@@ -60,6 +61,11 @@ def send_insult(message):
 def send_peptalk(message):
     bot.send_message(message.chat.id, gp_pep.get_peptalk())
 
+# Rant module
+@bot.message_handler(commands=['rant'])
+def send_rant(message):
+    bot.send_message(message.chat.id, rant_collection.get_rant_message())
+
 # test function for stickers
 @bot.message_handler(commands=['t_sticker'])
 def gp_send_sticker(message):
@@ -75,6 +81,11 @@ def handle_standard_message(message):
         for character in capspam_result:
             bot.send_message(message.chat.id, character)
             time.sleep(1)
+
+# Initialise additional functions
+rant_collection = gp_rant.RantCollection()
+rant_collection.read_file(r"resources/gp_res_rants.txt")
+
 
 # start bot listening
 bot.infinity_polling()
