@@ -82,6 +82,7 @@ def handle_standard_message(message):
             bot.send_message(message.chat.id, character)
             time.sleep(1)
 
+
 # Initialise additional functions
 rant_collection = gp_rant.RantCollection()
 rant_collection.read_file(r"resources/gp_res_rants.txt")
